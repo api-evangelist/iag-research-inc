@@ -1,4 +1,16 @@
 aid: iag-research-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iag-research-inc.png
 name: IAG Research, Inc.
 description: 'IAG Research, Inc. is a company surfaced as a portfolio company of bessemer-venture-partners
   and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
@@ -25,3 +37,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.iag.com.au/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Acquired Bessemer portfolio stub; unidentifiable and not an API provider
+    (is_api_provider:false at source). No API/docs/spec surface found. Website
+    https://www.iag.com.au/ is a wrong name-match to Insurance Australia Group (ASX-listed
+    Australian insurer, unrelated to this US Inc.); left as-is because no verified
+    replacement domain exists. Security/domain probes deliberately NOT run against
+    iag.com.au to avoid misattributing an unrelated company. WebSearch budget was
+    exhausted this session; WebFetch/DNS probes worked (candidate domains iagresearch.com
+    NXDOMAIN; bvp.com/companies 200 but no IAG Research listing).'
