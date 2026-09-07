@@ -63,3 +63,5 @@ x-enrichment:
     iag.com.au to avoid misattributing an unrelated company. WebSearch budget was
     exhausted this session; WebFetch/DNS probes worked (candidate domains iagresearch.com
     NXDOMAIN; bvp.com/companies 200 but no IAG Research listing).'
+x-parent: iag
+x-relationship: product
